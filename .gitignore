@@ -21,3 +21,14 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+platforms/browser/cordova/
+platforms/android/cordova/
+platforms/ios/cordova/
+
+platforms/android/CordovaLib/
+platforms/ios/CordovaLib/
+
+platforms/android/app/build/intermediates/
+
+platforms/android/.gradle/
