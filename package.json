@@ -11,16 +11,20 @@
     "build": "react-scripts build",
     "move": "mv build www || move build www",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "node build-and-merge.js"
   },
   "dependencies": {
+    "async": "^2.6.1",
+    "chalk": "^2.4.2",
     "cordova-android": "^7.1.4",
     "cordova-browser": "^5.0.4",
     "cordova-ios": "^4.5.5",
     "cordova-plugin-whitelist": "^1.3.3",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-scripts": "2.1.3"
+    "react-scripts": "2.1.3",
+    "rimraf": "^2.6.3"
   },
   "cordova": {
     "plugins": {
@@ -40,5 +44,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
 }
