@@ -15,7 +15,7 @@
     "dev": "node build-and-merge.js"
   },
   "dependencies": {
-    "async": "^2.6.1",
+    "async": "^2.6.4",
     "chalk": "^2.4.2",
     "cordova-android": "^11.0.0",
     "cordova-browser": "^6.0.0",
